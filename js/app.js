@@ -25,7 +25,7 @@ particlesJS('particles-js', {
     line_linked: {
       enable_auto: true,
       distance: 100,
-      color: '#aaa',
+      color: '#ccc',
       opacity: 1,
       width: 1,
       condensed_mode: {
