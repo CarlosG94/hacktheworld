@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="Website for Hacking the World of X">
 		<meta name="author" content="Carlos Gutierrez">
-		<meta http-equiv="refresh" content="30">
+		<meta http-equiv="refresh" content="90">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<title>Hacking the World of X</title>	
@@ -15,33 +15,16 @@
 	</head>
 
 	<body>
-		<div id="particles-js" class="center-screen">
-		</div>
+		<div id="particles-js" class="center-screen"></div>
 
 		<div>
-				<img class="logo" src="images/logo.png" alt="logo">
-				<h1 id="title">Coming Soon</h1>
-			</div>
+			<img class="logo" src="images/logo.png" alt="logo">
+			<h1 id="title">Coming Soon</h1>
+			<!-- <audio src="assets/Madeon-Ok.mp3" controls></audio> -->
+		</div>
 
-		<script src="js/jquery-2.1.3.min.js"></script>
-		
 		<script src="js/particles.min.js"></script>
 		<script src="js/app.js"></script>
-		<script>
-  			var stats = new Stats();
-  			stats.setMode(0); // 0: fps, 1: ms
-  			stats.domElement.style.position = 'absolute';
-  			stats.domElement.style.left = '0px';
-  			stats.domElement.style.top = '0px';
-  			document.body.appendChild( stats.domElement );
-  			var update = function (){
-  			  stats.begin();
-  			  // monitored code goes here
-  			  stats.end();
-  			  requestAnimationFrame(update);
-  			};
-  			requestAnimationFrame(update);
-		</script>
 		
 	</body>
 </html>
